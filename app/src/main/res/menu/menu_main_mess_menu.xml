@@ -1,0 +1,42 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.user.bh4_nitj.mainMessMenu">
+    <item
+        android:id="@+id/settings"
+        android:icon="@drawable/settings"
+        android:orderInCategory="100"
+
+        android:title="Profile Settings"
+        app:showAsAction="never" />
+    <!--android:onClick="settings"-->
+
+    <!--android:onClick="logOut"-->
+
+    <item
+        android:id="@+id/logOut"
+        android:icon="@drawable/logout"
+        android:orderInCategory="100"
+
+        android:title="Log Out"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/messMenu"
+        android:icon="@drawable/messmenu3"
+
+        android:orderInCategory="100"
+        android:title="Mess Menu"
+        app:showAsAction="always" />
+    <!--android:onClick="newsFeed"-->
+
+
+    <item
+        android:id="@+id/poll"
+        android:icon="@drawable/poll3"
+        android:orderInCategory="100"
+
+        android:title="Polls"
+        app:showAsAction="always" />
+    <!--android:onClick="poll"-->
+
+</menu>

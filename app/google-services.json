@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "287611465178",
+    "firebase_url": "https://bh4-nitj.firebaseio.com",
+    "project_id": "bh4-nitj",
+    "storage_bucket": "bh4-nitj.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:287611465178:android:e700fa3ac6f2b652",
+        "android_client_info": {
+          "package_name": "com.networkcommittee.wc.bh4nitjtest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "287611465178-s3jfqbaltsvon8b9l9ahin0bpeh01vc5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZxcVejIePJDbyu-tT-wIqne8UXWiffWY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

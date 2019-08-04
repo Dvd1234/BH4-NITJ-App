@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">BH4 NITJ</string>
+    <string name="title_activity_login">Sign in</string>
+
+    //Newly added
+    <string name="file_provider_authority" translatable="false">com.networkcommittee.wc.bh4nitjtest.fileprovider</string>
+
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_homepage">homepageActivity</string>
+
+    //By Yash
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_main_mess_menu">mainMessMenu</string>
+    <string name="tab_text_1">Mon</string>
+    <string name="tab_text_2">Tue</string>
+    <string name="tab_text_3">Wed</string>
+    <string name="tab_text_4">Thu</string>
+    <string name="tab_text_5">Fri</string>
+    <string name="tab_text_6">Sat</string>
+    <string name="tab_text_7">Sun</string>
+
+    <string name="h1"><u>Monday\'s Punch</u></string>
+    <string name="h2"><u>Tuesday Bonanza</u></string>
+    <string name="h3"><u>Wednesday Dhamaal</u></string>
+    <string name="h4"><u>Tasty Thursday</u></string>
+    <string name="h5"><u>Spicy Friday</u></string>
+    <string name="h6"><u>Appetizing Saturday</u></string>
+    <string name="h7"><u>Sunday\'s Delight</u></string>
+    //Till here
+
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+</resources>

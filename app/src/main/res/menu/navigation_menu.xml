@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/homeConnection"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home"
+            />
+
+        <item
+            android:id="@+id/wardenCorner"
+            android:icon="@drawable/ic_message_black_24dp"
+            android:title="Warden's Corner"
+            />
+
+
+    <item
+        android:id="@+id/messAccount"
+        android:icon="@drawable/ic_account_balance_wallet_black_24dp"
+        android:title="Mess Account"
+        />
+
+    <item
+        android:id="@+id/hostelStaff"
+        android:icon="@drawable/ic_assistant_black_24dp"
+        android:title="Hostel Staff"
+        />
+
+    <item
+        android:id="@+id/developers"
+        android:icon="@drawable/ic_developer_mode_black_24dp"
+        android:title="Developers"
+        />
+
+        <item
+            android:id="@+id/hostelCommittees"
+            android:icon="@drawable/ic_face_black_24dp"
+            android:title="Hostel Committees"
+            />
+
+
+    <item
+        android:id="@+id/complaintPortal"
+        android:icon="@drawable/ic_supervisor_account_black_24dp"
+        android:title="Complaint Portal"
+        />
+
+        <item
+            android:id="@+id/leavePortal"
+            android:icon="@drawable/ic_swap_vert_black_24dp"
+            android:title="Leave Portal"
+            />
+
+
+
+    </group>
+
+
+</menu>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:orientation="vertical"
+    android:padding="27dp"
+    tools:context=".messLeave"
+    tools:layout_marginLeft="19dp"
+    tools:layout_marginRight="2dp"
+    tools:layout_marginTop="6dp"
+    tools:paddingLeft="30dp"
+    tools:paddingTop="10dp">\
+
+    <TextView
+        android:id="@+id/textView127"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10sp"
+        android:text="Mess Leave Portal"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:paddingLeft="20dp"
+        tools:paddingTop="20dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="105dp"
+            android:layout_height="27dp"
+            android:text="From :"
+            android:textColor="?attr/actionModeSplitBackground"
+            tools:textColor="?attr/actionModeSplitBackground" />
+
+        <EditText
+            android:id="@+id/fromText"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="DD/MM/YYYY"
+            android:inputType="date" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="7dp"
+        tools:paddingLeft="20dp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="105dp"
+            android:layout_height="wrap_content"
+            android:text="Diet :"
+            android:textColor="?attr/actionModeSplitBackground"
+            tools:paddingTop="5dp" />
+
+        <Spinner
+            android:id="@+id/fromDietSpinner"
+            android:layout_width="140dp"
+            android:layout_height="42dp"
+            tools:paddingTop="5dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:paddingLeft="20dp"
+        tools:paddingTop="7dp">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="106dp"
+            android:layout_height="20dp"
+            android:text="To :"
+            android:textColor="?attr/actionModeSplitBackground" />
+
+        <EditText
+            android:id="@+id/toText"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="DD/MM/YYYY"
+            android:inputType="date" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:paddingLeft="20dp"
+        tools:paddingTop="7dp">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="105dp"
+            android:layout_height="25dp"
+            android:text="Diet"
+            android:textColor="?attr/actionModeSplitBackground" />
+
+        <Spinner
+            android:id="@+id/toDietSpinner"
+            android:layout_width="140dp"
+            android:layout_height="42dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:paddingLeft="20dp"
+        tools:paddingTop="7dp">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="*Please check all details carefully\nYour diet off will be considered after 3 diets of point of sending Off Request."
+            android:textAlignment="center"
+            android:textColor="@android:color/holo_red_dark" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="85dp"
+        android:onClick="submit"
+        android:paddingLeft="10dp"
+        android:paddingTop="15dp"
+        android:text="Submit"
+        android:textColor="@android:color/holo_green_dark"
+        android:textColorLink="@android:color/holo_green_dark"
+        tools:layout_marginTop="5dp" />
+
+</LinearLayout>

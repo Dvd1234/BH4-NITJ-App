@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/settings"
+        android:icon="@drawable/settings"
+        android:orderInCategory="100"
+
+        android:title="Profile Settings"
+        app:showAsAction="never" />
+    <!--android:onClick="settings"-->
+
+    <!--android:onClick="logOut"-->
+
+    <item
+        android:id="@+id/feedback"
+        android:icon="@drawable/ic_assignment_turned_in_black_24dp"
+        android:orderInCategory="100"
+
+        android:title="Feedback &amp; Suggestn."
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/rulesAndRegulations"
+        android:icon="@drawable/ic_assignment_turned_in_black_24dp"
+        android:orderInCategory="100"
+
+        android:title="Rules &amp; Regulatn."
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/logOut"
+        android:icon="@drawable/logout"
+        android:orderInCategory="100"
+
+        android:title="Log Out"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/messMenu"
+        android:icon="@drawable/messmenu3"
+
+        android:orderInCategory="100"
+        android:title="Mess Menu"
+        app:showAsAction="always" />
+    <!--android:onClick="newsFeed"-->
+
+
+    <item
+        android:id="@+id/poll"
+        android:icon="@drawable/poll3"
+        android:orderInCategory="100"
+
+        android:title="Polls"
+        app:showAsAction="always" />
+    <!--android:onClick="poll"-->
+
+</menu>

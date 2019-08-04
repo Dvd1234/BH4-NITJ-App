@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:orientation="vertical"
+    android:padding="27dp"
+    tools:context=".HostelOff"
+    tools:layout_marginLeft="19dp"
+    tools:layout_marginRight="2dp"
+    tools:layout_marginTop="6dp"
+    tools:paddingLeft="30dp"
+    tools:paddingTop="10dp">\
+
+    <TextView
+        android:id="@+id/textView124"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10sp"
+        android:text="Hostel Leave Portal"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:paddingLeft="20dp"
+        tools:paddingTop="20dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="105dp"
+            android:layout_height="27dp"
+            android:text="From :"
+            android:textColor="?attr/actionModeSplitBackground"
+            tools:textColor="?attr/actionModeSplitBackground" />
+
+        <EditText
+            android:id="@+id/fromDateText"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="DD/MM/YYYY"
+            android:inputType="date" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:paddingLeft="20dp"
+        tools:paddingTop="7dp">
+
+        <TextView
+            android:id="@+id/textView96"
+            android:layout_width="106dp"
+            android:layout_height="20dp"
+            android:text="To :"
+            android:textColor="?attr/actionModeSplitBackground" />
+
+        <EditText
+            android:id="@+id/toDateText"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="DD/MM/YYYY"
+            android:inputType="date" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:paddingLeft="20dp"
+        tools:paddingTop="20dp">
+
+        <TextView
+            android:id="@+id/textView97"
+            android:layout_width="105dp"
+            android:layout_height="27dp"
+            android:text="Departure Time :"
+            android:textColor="?attr/actionModeSplitBackground"
+            tools:textColor="?attr/actionModeSplitBackground" />
+
+        <EditText
+            android:id="@+id/departureTime"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="08:45 AM"
+            android:inputType="textPersonName" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:paddingLeft="20dp"
+        tools:paddingTop="7dp">
+
+        <TextView
+            android:id="@+id/textView98"
+            android:layout_width="106dp"
+            android:layout_height="20dp"
+            android:text="Leave's Purpose:"
+            android:textColor="?attr/actionModeSplitBackground" />
+
+        <EditText
+            android:id="@+id/purposeOfGoing"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Home"
+            android:inputType="textPersonName" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:paddingLeft="20dp"
+        tools:paddingTop="20dp">
+
+        <TextView
+            android:id="@+id/textView99"
+            android:layout_width="105dp"
+            android:layout_height="27dp"
+            android:text="Visit Address :"
+            android:textColor="?attr/actionModeSplitBackground"
+            tools:textColor="?attr/actionModeSplitBackground" />
+
+        <EditText
+            android:id="@+id/address"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:maxLength="150"
+            android:hint="Near Nakodar Market, Punjab"
+            android:inputType="textMultiLine"
+            android:maxLines="4"
+            android:minLines="2"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:paddingLeft="20dp"
+        tools:paddingTop="7dp">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="106dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="Phone No. during Visit :"
+            android:textAlignment="center"
+            android:textColor="?attr/actionModeSplitBackground" />
+
+        <EditText
+            android:id="@+id/phoneNumber"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="8852374578"
+            android:inputType="textPersonName" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:paddingLeft="20dp"
+        tools:paddingTop="7dp">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="*Please check all details carefully."
+            android:textAlignment="center"
+            android:textColor="@android:color/holo_red_dark" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="3sp"
+        android:gravity="center_horizontal|center"
+        android:onClick="submit"
+        android:padding="3sp"
+        android:text="Submit"
+        android:textColor="@android:color/holo_green_dark"
+        android:textColorLink="@android:color/holo_green_dark" />
+
+</LinearLayout>
